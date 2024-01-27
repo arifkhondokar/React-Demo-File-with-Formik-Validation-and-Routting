@@ -1,0 +1,41 @@
+.navbar {
+    width: 100%;
+}
+.navbarLogo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.navbarLogo .bnLogo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+.bnLogo img {
+    width: 100%;
+    height: 100%;
+}
+.navbarWrapper {
+    background: #8d72ec78;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navbarMain ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.navbarLogin ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.navbarMain ul li a.active {
+    color: red;
+}
