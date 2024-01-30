@@ -63,7 +63,6 @@
 }
 .formMain {
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 20px 0;
 }
@@ -153,6 +152,6 @@
   position: absolute;
   content: '';
   right: 10px;
-  top: 40px;
+  top: 60px;
   color: #000;
 }
